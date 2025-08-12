@@ -1,0 +1,100 @@
+.navbar {
+  position: fixed;         
+  top: 0;                  
+  left: 0;                 
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 40px;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;           
+}
+
+
+.logo-section {
+display: flex;
+align-items: center;
+}
+
+.circle {
+width: 28px;
+height: 28px;
+background-color: white;
+border: 2px solid black;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+.title {
+  font-size: 25px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+
+  background: linear-gradient(to right, #e7fd25, #ff61d5, #46bcfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold {
+  font-weight: 800; /* đậm */
+}
+
+.light {
+  font-weight: 300; /* mảnh */
+}
+
+.menu {
+display: flex;
+gap: 45px;
+}
+
+.menu span {
+cursor: pointer;
+font-weight: 100;
+color: #ededf3;
+transition: color 0.3s ease;
+}
+
+.menu span:hover {
+color: #fefefe;
+}
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.nav-link:visited {
+  color: rgb(1, 53, 62);
+}
+.nav-link:hover {
+  color: #1294eb;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  margin-left: 16px;
+  padding: 8px 15px; 
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  height: 100%; 
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  padding: 8px 15px;
+  border: 1px solid #238FDE;  
+  border-radius: 8px;       
+  background-color: #f2f2f2;  
+  color: #238FDE;             
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link.active:hover {
+  background-color: #c4e5ff  ;
+}
