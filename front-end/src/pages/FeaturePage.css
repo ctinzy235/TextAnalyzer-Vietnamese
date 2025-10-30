@@ -9,11 +9,11 @@
 
 /* Sidebar styles */
 .sidebar {
-  position: fixed;         /* Để cố định */
+  position: fixed;         
   top: 59px; 
-  left: 0;                /* Đặt ở mép phải */
+  left: 0;               
   /* height: calc(100vh - 60px);            */
-  height: 75vh; /* Chiều cao của sidebar */
+  height: 75vh; 
   width: 230px;
   background-color: #ffffff;
   color: rgb(15, 0, 0);
@@ -21,7 +21,7 @@
   border-radius: 16px; 
   margin: 13px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  z-index: 1000;           /* Đảm bảo nằm trên */
+  z-index: 1000;           
   
 } 
 
@@ -61,7 +61,7 @@
 
 /* Content styles */
 .content {
-  padding: 80px 30px 30px 300px; /* top, right, bottom, left */
+  padding: 80px 30px 30px 300px; 
 }
 
 .main-content {
@@ -71,5 +71,5 @@
   box-shadow: 0 0 8px rgba(0,0,0,0.05);
 }
 .menu-icon {
-  font-size: 20px; /* tăng hoặc giảm kích thước */
+  font-size: 20px; 
 }
